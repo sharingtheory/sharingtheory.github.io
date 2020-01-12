@@ -299,6 +299,9 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 @media(max-width: 768px) {
+    .navbar-header {
+      background-color: #000;
+    }
     header {
       height: 600px;
       background-position: 43% 15%;
