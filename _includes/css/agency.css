@@ -173,6 +173,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
+    font-weight: bold;
     font-family: {{ site.data.template.font.header }};
     color: #{{ site.data.template.color.header }};
 }
@@ -215,7 +216,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    font-weight: bold;
     color: #{{ site.data.template.color.header }};
 }
 
@@ -254,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #000;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -264,11 +264,12 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
+    width: 100%;
     color: #fff;
-    /*background-attachment: scroll;*/
-    height:650px;
-    background-attachment: fixed;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-attachment: scroll;
+    /*height:650px;*/
+    /*background-attachment: fixed;*/
+    background-image: url('{{ site.baseurl }}/img/header-bg-50.jpg');
     background-position: center 15%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -299,7 +300,8 @@ header .intro-text .intro-heading {
 }
 @media(max-width: 768px) {
     header {
-      background-position: 0;
+      height: 600px;
+      background-position: 43% 15%;
     }
     #services .row > div {
       margin-bottom: 50px;
@@ -334,10 +336,10 @@ section {
 }
 
 section h2.section-heading {
-    font-family: {{ site.data.template.font.header }};
+    font-family: {{ site.data.template.font.primary }};
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 36px;
 }
 
 section h3.section-subheading {
@@ -680,6 +682,9 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
+}
+section#contact .form-control {
+  color: #000;
 }
 
 section#contact .form-group input.form-control {

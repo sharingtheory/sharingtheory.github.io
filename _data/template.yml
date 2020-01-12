@@ -1,14 +1,14 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
   header: fff
-  primary: d20077
-  secondary: ec0086
+  primary: 8a004e
+  secondary: 980157
   secondary-dark: 333
   muted: 777
 
 # Font Families
 font:
-  header: "'Righteous', sans-serif"
-  primary: "'Raleway', sans-serif"
-  secondary: "'Raleway', sans-serif"
+  header: "'Dosis', sans-serif"
+  primary: "'Dosis', sans-serif"
+  secondary: "'Dosis', sans-serif"
 
