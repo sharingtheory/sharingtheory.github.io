@@ -8,7 +8,7 @@ color:
 
 # Font Families
 font:
-  header: "'Dosis', sans-serif"
-  primary: "'Dosis', sans-serif"
-  secondary: "'Dosis', sans-serif"
+  header: "'Dosis', 'Noto Sans KR', sans-serif"
+  primary: "'Dosis', 'Noto Sans KR', sans-serif"
+  secondary: "'Dosis', 'Noto Sans KR', sans-serif"
 

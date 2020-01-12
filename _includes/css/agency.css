@@ -269,7 +269,7 @@ header {
     background-attachment: scroll;
     /*height:650px;*/
     /*background-attachment: fixed;*/
-    background-image: url('{{ site.baseurl }}/img/header-bg-50.jpg');
+    background-image: url('{{ site.baseurl }}/img/header-bg-40.jpg');
     background-position: center 15%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
