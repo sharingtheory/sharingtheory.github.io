@@ -1,12 +1,13 @@
-url: https://sharingtheory.github.io
+url: https://sharingtheory.com
 baseurl: ""
 
 # Site settings
 title: Sharing Theory
 email: sharingtheory@gmail.com
-description: "share your life"
+description: "Share yourself"
 
 
+google_analytics: "UA-156087990-1"
 # Team names, titles and social links
 people:
 #- name: Kay Garland
@@ -41,3 +42,7 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+    - jekyll-sitemap
+    - jekyll-feed
+
