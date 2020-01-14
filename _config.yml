@@ -45,3 +45,6 @@ plugins:
     - jekyll-sitemap
     - jekyll-feed
 
+feed:
+    path: feed.xml
+
