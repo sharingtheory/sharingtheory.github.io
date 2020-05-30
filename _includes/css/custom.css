@@ -1,0 +1,4 @@
+#portfolio .portfolio-item .portfolio-link {
+  max-height: 410px;
+  overflow: hidden;
+}
